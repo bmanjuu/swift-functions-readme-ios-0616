@@ -6,9 +6,11 @@ func sayHello() {
 sayHello()
 sayHello()
 
+
 // Uncomment this line to see the error that is printed in the console.
 // (You can uncomment a line by removing the // at the beginning of the line.)
 //print(greeting)
+//ERROR IS RELATED TO SCOPE!! greeting only exists within the function
 
 
 func sayHelloToGarfield() {
@@ -35,3 +37,4 @@ sayHelloToCat(catFriend)
 
 // Uncomment this line to see the error that is printed in the console.
 //sayHelloToCat()
+//ERROR IS B/C WE DID NOT PASS IN AN ARGUMENT 
